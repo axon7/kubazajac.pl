@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Kuba Zając portfolio`,
+    description: `Personal web developer portfolio`,
+    author: `@axon7`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,11 +29,19 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: "gatsby-plugin-web-font-loader",
       options: {
-        pathToConfigModule: `src/utils/typography`,
+        google: {
+          families: ["Nunito", "Montserrat"],
+        },
       },
     },
+    // {
+    //   resolve: `gatsby-plugin-typography`,
+    //   options: {
+    //     pathToConfigModule: `src/utils/typography`,
+    //   },
+    // },
 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

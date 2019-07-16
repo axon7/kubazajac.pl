@@ -1,42 +1,50 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import styled from "styled-components"
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
+const StyledHeader = styled.div`
+  background-color: black;
+  height: 10vh;
+  width: 100%;
+  color: white;
+  display: flex;
+  align-content: center;
+`
+
+const Ul = styled.ul`
+  padding: 0;
+  margin-right: 50px;
+  list-style: none;
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  align-items: center;
+`
+const Li = styled.li`
+  margin-right: 20px;
+`
+
+const Header = () => (
+  <StyledHeader>
+    <h1 style={{ marginLeft: "50px" }}>Kuba Zając</h1>
+    <Ul style={{ display: "flex", flex: 1 }}>
+      <Li>
+        <Link style={{ textDecoration: "none", color: "white" }} to="/about">
+          ABOUT
         </Link>
-      </h1>
-    </div>
-  </header>
+      </Li>
+      <Li>
+        <Link style={{ textDecoration: "none", color: "white" }} to="/projects">
+          PROJECTS
+        </Link>
+      </Li>
+      <Li>
+        <Link style={{ textDecoration: "none", color: "white" }} to="/contact">
+          CONTACT
+        </Link>
+      </Li>
+    </Ul>
+  </StyledHeader>
 )
-
-Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
-
-Header.defaultProps = {
-  siteTitle: ``,
-}
 
 export default Header
