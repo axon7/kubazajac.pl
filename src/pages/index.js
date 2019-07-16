@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import styled, { createGlobalStyle } from "styled-components"
 import Header from "../components/header"
 
