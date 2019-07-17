@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import styled from "styled-components"
+// import { Helmet } from "react-helmet"
 
 const StyledHeader = styled.div`
   background-color: black;
@@ -26,7 +27,18 @@ const Li = styled.li`
 
 const Header = () => (
   <StyledHeader>
-    <h1 style={{ marginLeft: "50px" }}>Kuba Zając</h1>
+    <h3
+      style={{
+        marginLeft: "50px",
+        marginTop: "auto",
+        marginBottom: "auto",
+        marginRight: "40px",
+      }}
+    >
+      <Link style={{ textDecoration: "none", color: "white" }} to="/">
+        Kuba Zając
+      </Link>
+    </h3>
     <Ul style={{ display: "flex", flex: 1 }}>
       <Li>
         <Link style={{ textDecoration: "none", color: "white" }} to="/about">

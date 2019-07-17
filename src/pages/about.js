@@ -1,13 +1,7 @@
 import React from "react"
 import styled from "styled-components"
-import Header from "../components/header"
-
-// import SEO from "../components/seo"
-const StyledWrapper = styled.div`
-  width: 100%;
-  height: 100vh;
-  background-color: #ff7659;
-`
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const StyledMain = styled.main`
   width: 100%;
@@ -19,14 +13,13 @@ const StyledMain = styled.main`
 `
 
 const About = () => (
-  <StyledWrapper>
-    <Header />
+  <Layout>
     <StyledMain>
-      {/* <SEO title="Home" /> */}
+      <SEO title="about" />
 
-      <h1>hi from About</h1>
+      <h1>Hi from about</h1>
     </StyledMain>
-  </StyledWrapper>
+  </Layout>
 )
 
 export default About
