@@ -13,7 +13,7 @@ const StyledMain = styled.main`
 
 const Background = styled.div`
   background-image: url(${thunderbg});
-  height: 699px;
+  height: 500px;
   width: 100%;
   margin: 0 auto;
   color: #fff100;
@@ -29,7 +29,8 @@ const Background = styled.div`
 `
 const StyledMainText = styled.div`
   text-align: center;
-  font-size: 50px;
+  font-size: 8vw;
+  margin: 0;
 `
 
 const Lorem = styled.div`
@@ -48,12 +49,9 @@ const IndexPage = () => (
         </StyledMainText>
       </Background>
       <Lorem>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce dictum
-        diam eu orci tincidunt, non rhoncus nulla semper. Praesent efficitur
-        diam vitae mi eleifend ornare. Nulla non diam aliquam, consequat sapien
-        et, placerat nisl. Mauris vel massa ipsum. Nunc non odio magna. Nunc
-        laoreet sit amet sapien id mollis. Integer nec mollis turpis. Maecenas a
-        metus vel libero tristique porta quis ac tortor.
+        <StyledMainText>
+          <p style={{ margin: "0 auto", paddingTop: "30px" }}>PORTFOLIO</p>
+        </StyledMainText>
       </Lorem>
     </StyledMain>
   </Layout>
