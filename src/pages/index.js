@@ -3,6 +3,7 @@ import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import thunderbg from "../images/thunderbg.jpg"
+import project1 from "../images/project1.png"
 
 const StyledMain = styled.main`
   width: 100%;
@@ -13,7 +14,7 @@ const StyledMain = styled.main`
 
 const Background = styled.div`
   background-image: url(${thunderbg});
-  height: 500px;
+  height: 800px;
   width: 100%;
   margin: 0 auto;
   color: white;
@@ -35,8 +36,8 @@ const StyledMainText = styled.div`
 `
 
 const Lorem = styled.div`
-  background-color: #663399;
-  height: 700px;
+  background-color: black;
+  height: 60%;
   font-family: "Nunito";
 `
 
@@ -57,8 +58,10 @@ const IndexPage = () => (
       </Background>
       <Lorem>
         <StyledMainText>
-          <p style={{ margin: "0 auto", paddingTop: "30px" }}>PORTFOLIO</p>
-          <p style={{ margin: "0 auto", paddingTop: "30px" }}>Projects here</p>
+          <p style={{ margin: "0 auto", paddingTop: "30px" }}>
+            Latest project:{" "}
+          </p>
+          <img src={project1} alt="project 1" width="50%" />
         </StyledMainText>
       </Lorem>
     </StyledMain>

@@ -4,7 +4,7 @@ import styled from "styled-components"
 // import { Helmet } from "react-helmet"
 
 const StyledHeader = styled.div`
-  background-color: black;
+  background-color: #663399;
   height: 10vh;
   width: 100%;
   color: white;
@@ -29,14 +29,14 @@ const Header = () => (
   <StyledHeader>
     <h3
       style={{
-        marginLeft: "50px",
+        marginLeft: "6%",
         marginTop: "auto",
         marginBottom: "auto",
         marginRight: "40px",
       }}
     >
       <Link style={{ textDecoration: "none", color: "white" }} to="/">
-        Kuba Zając
+        Kuba
       </Link>
     </h3>
     <Ul style={{ display: "flex", flex: 1 }}>
