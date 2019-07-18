@@ -3,12 +3,12 @@ import Typography from "typography"
 const typography = new Typography({
   googleFonts: [
     {
-      name: "Montserrat",
+      name: "Nunito",
       styles: ["300", "400", "700"],
     },
   ],
-  bodyFontFamily: ["Montserrat", "sans-serif"],
-  headerFontFamily: ["Montserrat", "sans-serif"],
-  linkFontFamily: ["Montserrat", "sans-serif"],
+  bodyFontFamily: ["Nunito", "sans-serif"],
+  headerFontFamily: ["Nunito", "sans-serif"],
+  linkFontFamily: ["Nunito", "sans-serif"],
 })
 export default typography
