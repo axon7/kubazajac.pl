@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
   body {
     padding: 0;
     margin: 0;
-    font-family: "Montserrat";
+    font-family: "Nunito";
     color: red;
   }
 

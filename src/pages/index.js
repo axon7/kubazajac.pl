@@ -6,7 +6,7 @@ import thunderbg from "../images/thunderbg.jpg"
 
 const StyledMain = styled.main`
   width: 100%;
-  background-color: #5c3479;
+  background-color: #663399;
   height: 100%;
   color: white;
 `
@@ -35,7 +35,7 @@ const StyledMainText = styled.div`
 `
 
 const Lorem = styled.div`
-  background-color: purple;
+  background-color: #663399;
   height: 700px;
   font-family: "Nunito";
 `
