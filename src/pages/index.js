@@ -8,7 +8,7 @@ const StyledMain = styled.main`
   width: 100%;
   background-color: #5c3479;
   height: 100%;
-  color: #fff100;
+  color: white;
 `
 
 const Background = styled.div`
@@ -16,7 +16,7 @@ const Background = styled.div`
   height: 500px;
   width: 100%;
   margin: 0 auto;
-  color: #fff100;
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,13 +29,15 @@ const Background = styled.div`
 `
 const StyledMainText = styled.div`
   text-align: center;
-  font-size: 8vw;
+  font-size: 27px;
+  font-family: "Nunito";
   margin: 0;
 `
 
 const Lorem = styled.div`
-  background-color: black;
-  height: 1000px;
+  background-color: purple;
+  height: 700px;
+  font-family: "Nunito";
 `
 
 const IndexPage = () => (
@@ -44,13 +46,19 @@ const IndexPage = () => (
       <SEO title="home" />
       <Background>
         <StyledMainText>
-          <h1>Hi people</h1>
-          <h5>I am Web Developer</h5>
+          <h1>
+            Hi, I'm Kuba!{" "}
+            <span role="img" aria-label="hi-emoji">
+              👋
+            </span>
+          </h1>
+          <h5>I'm Web Developer</h5>
         </StyledMainText>
       </Background>
       <Lorem>
         <StyledMainText>
           <p style={{ margin: "0 auto", paddingTop: "30px" }}>PORTFOLIO</p>
+          <p style={{ margin: "0 auto", paddingTop: "30px" }}>Projects here</p>
         </StyledMainText>
       </Lorem>
     </StyledMain>

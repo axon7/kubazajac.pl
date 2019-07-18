@@ -36,7 +36,10 @@ const Header = () => (
       }}
     >
       <Link style={{ textDecoration: "none", color: "white" }} to="/">
-        Kuba Zając
+        Kuba Zając{" "}
+        <span role="img" aria-label="bunny-emoji">
+          🐰
+        </span>
       </Link>
     </h3>
     <Ul style={{ display: "flex", flex: 1 }}>
