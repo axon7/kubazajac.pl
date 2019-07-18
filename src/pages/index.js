@@ -14,7 +14,7 @@ const StyledMain = styled.main`
 
 const Background = styled.div`
   background-image: url(${thunderbg});
-  height: 800px;
+  height: 750px;
   width: 100%;
   margin: 0 auto;
   color: white;
@@ -58,10 +58,31 @@ const IndexPage = () => (
       </Background>
       <Lorem>
         <StyledMainText>
-          <p style={{ margin: "0 auto", paddingTop: "30px" }}>
+          <p
+            style={{
+              margin: "0 auto",
+              paddingTop: "30px",
+              marginBottom: "30px",
+            }}
+          >
             Latest project:{" "}
           </p>
-          <img src={project1} alt="project 1" width="50%" />
+          <a href="https://chingu-voyages.github.io/v9-geckos-team-12/">
+            <img
+              src={project1}
+              alt="project 1"
+              style={{ width: "70%", maxWidth: "600px" }}
+            />
+            <p
+              style={{
+                margin: "0 auto",
+                paddingTop: "30px",
+                marginBottom: "40px",
+              }}
+            >
+              Click to visit
+            </p>
+          </a>
         </StyledMainText>
       </Lorem>
     </StyledMain>

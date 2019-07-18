@@ -20,9 +20,10 @@ const Ul = styled.ul`
   flex: 1;
   justify-content: flex-end;
   align-items: center;
+  margin-left: 30px;
 `
 const Li = styled.li`
-  margin-right: 20px;
+  margin-right: 6%;
 `
 
 const Header = () => (
@@ -51,7 +52,10 @@ const Header = () => (
         </Link>
       </Li>
       <Li>
-        <Link style={{ textDecoration: "none", color: "white" }} to="/contact">
+        <Link
+          style={{ textDecoration: "none", color: "white", marginRight: "0px" }}
+          to="/contact"
+        >
           CONTACT
         </Link>
       </Li>
