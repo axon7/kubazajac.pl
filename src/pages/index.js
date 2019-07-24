@@ -6,6 +6,7 @@ import thunderbg from "../images/thunderbg.jpg"
 import project1 from "../images/project1.png"
 import Button from "../components/Button"
 import { Link } from "gatsby"
+
 const StyledMain = styled.main`
   width: 100%;
   background-color: #663399;
@@ -23,7 +24,7 @@ const Background = styled.div`
   justify-content: center;
   align-items: center;
   align-self: flex-start;
-
+  flex-direction: column;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -41,7 +42,7 @@ const StyledMainText = styled.div`
 
 const StyledProjectsInfo = styled.div`
   text-align: center;
-  font-size: 27px;
+  font-size: 1.3em;
   font-family: "Nunito";
   display: flex;
   justify-items: center;
@@ -88,6 +89,25 @@ const IndexPage = () => (
             style={{ width: "100%", maxWidth: "900px" }}
           />
         </a>
+
+        <p>Shopping app built with MaterialUI</p>
+        <p style={{ marginTop: "0px" }}>
+          Technologies used:{" "}
+          <img
+            alt="react"
+            height="32"
+            width="32"
+            color="pink"
+            src="https://unpkg.com/simple-icons@latest/icons/react.svg"
+          />
+          <img
+            alt="redux"
+            height="32"
+            width="32"
+            color="pink"
+            src="https://unpkg.com/simple-icons@latest/icons/redux.svg"
+          />
+        </p>
 
         <Button as={Link} to="/projects">
           {" "}
