@@ -6,6 +6,7 @@ import styled from "styled-components"
 const StyledHeader = styled.div`
   background-color: #663399;
   height: 10vh;
+  max-height: 65px;
   width: 100%;
   color: white;
   display: flex;
@@ -14,7 +15,7 @@ const StyledHeader = styled.div`
 
 const Ul = styled.ul`
   padding: 0;
-  margin-right: 50px;
+  margin-right: 5%;
   list-style: none;
   display: flex;
   flex: 1;
@@ -42,11 +43,6 @@ const Header = () => (
     </h3>
     <Ul style={{ display: "flex", flex: 1 }}>
       <Li>
-        <Link style={{ textDecoration: "none", color: "white" }} to="/about">
-          ABOUT
-        </Link>
-      </Li>
-      <Li>
         <Link style={{ textDecoration: "none", color: "white" }} to="/projects">
           PROJECTS
         </Link>
@@ -57,6 +53,11 @@ const Header = () => (
           to="/contact"
         >
           CONTACT
+        </Link>
+      </Li>
+      <Li>
+        <Link style={{ textDecoration: "none", color: "white" }} to="/about">
+          ABOUT
         </Link>
       </Li>
     </Ul>
