@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 const StyledMain = styled.main`
   width: 100%;
   height: 90vh;
-  background-color: #0a7caf;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
