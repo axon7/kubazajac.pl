@@ -74,7 +74,7 @@ const IndexPage = () => (
           My current stack of languages/technologies:
         </p>
         <p style={{ fontSize: "1em", marginTop: "0px" }}>
-          <p style={{ color: "red" }}>
+          <p>
             <img
               style={{
                 filter:
