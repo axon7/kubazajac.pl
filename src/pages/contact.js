@@ -17,7 +17,7 @@ const Contact = () => (
     <StyledMain>
       <SEO title="contact" />
 
-      <h1>Hi from CONTACT</h1>
+      <h1>Work in progress... Contact form</h1>
     </StyledMain>
   </Layout>
 )

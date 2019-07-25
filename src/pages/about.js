@@ -17,7 +17,7 @@ const About = () => (
     <StyledMain>
       <SEO title="about" />
 
-      <h1>Hi from about</h1>
+      <h1>About</h1>
     </StyledMain>
   </Layout>
 )
