@@ -74,86 +74,85 @@ const IndexPage = () => (
           My current stack of languages/technologies:
         </p>
         <p style={{ fontSize: "1em", marginTop: "0px" }}>
-          <p>
-            <img
-              style={{
-                filter:
-                  "invert(38%) sepia(80%) saturate(1060%) hue-rotate(340deg) brightness(89%) contrast(99%)",
-                marginRight: "8px",
-              }}
-              alt="react"
-              height="46"
-              width="46"
-              src="https://unpkg.com/simple-icons@latest/icons/html5.svg"
-            />{" "}
-            <img
-              style={{
-                filter:
-                  "invert(24%) sepia(54%) saturate(5276%) hue-rotate(191deg) brightness(94%) contrast(83%)",
-                marginRight: "8px",
-              }}
-              alt="react"
-              height="46"
-              width="46"
-              src="https://unpkg.com/simple-icons@latest/icons/css3.svg"
-            />{" "}
-            <img
-              style={{
-                filter:
-                  "invert(91%) sepia(55%) saturate(2932%) hue-rotate(337deg) brightness(98%) contrast(98%)",
-                marginRight: "8px",
-              }}
-              alt="react"
-              height="46"
-              width="46"
-              src="https://unpkg.com/simple-icons@latest/icons/javascript.svg"
-            />
-            <img
-              style={{
-                filter:
-                  "invert(90%) sepia(14%) saturate(5222%) hue-rotate(163deg) brightness(96%) contrast(105%)",
-                marginRight: "8px",
-              }}
-              alt="react"
-              height="46"
-              width="46"
-              src="https://unpkg.com/simple-icons@latest/icons/react.svg"
-            />{" "}
-            <img
-              style={{
-                filter:
-                  "invert(20%) sepia(21%) saturate(6424%) hue-rotate(254deg) brightness(97%) contrast(88%)",
-                marginRight: "8px",
-              }}
-              alt="react"
-              height="46"
-              width="46"
-              fill="#339933"
-              src="https://unpkg.com/simple-icons@latest/icons/redux.svg"
-            />{" "}
-            <img
-              style={{
-                filter:
-                  "invert(48%) sepia(14%) saturate(2347%) hue-rotate(71deg) brightness(99%) contrast(84%)",
-                marginRight: "8px",
-              }}
-              alt="react"
-              height="46"
-              width="46"
-              src="https://unpkg.com/simple-icons@latest/icons/node-dot-js.svg"
-            />{" "}
-            <img
-              style={{
-                filter:
-                  "invert(20%) sepia(21%) saturate(6424%) hue-rotate(254deg) brightness(97%) contrast(88%)",
-              }}
-              alt="react"
-              height="46"
-              width="46"
-              src="https://unpkg.com/simple-icons@latest/icons/gatsby.svg"
-            />
-          </p>
+          <img
+            style={{
+              filter:
+                "invert(38%) sepia(80%) saturate(1060%) hue-rotate(340deg) brightness(89%) contrast(99%)",
+              marginRight: "8px",
+            }}
+            alt="react"
+            height="46"
+            width="46"
+            src="https://unpkg.com/simple-icons@latest/icons/html5.svg"
+          />{" "}
+          <img
+            style={{
+              filter:
+                "invert(24%) sepia(54%) saturate(5276%) hue-rotate(191deg) brightness(94%) contrast(83%)",
+              marginRight: "8px",
+            }}
+            alt="react"
+            height="46"
+            width="46"
+            src="https://unpkg.com/simple-icons@latest/icons/css3.svg"
+          />{" "}
+          <img
+            style={{
+              filter:
+                "invert(91%) sepia(55%) saturate(2932%) hue-rotate(337deg) brightness(98%) contrast(98%)",
+              marginRight: "8px",
+            }}
+            alt="react"
+            height="46"
+            width="46"
+            src="https://unpkg.com/simple-icons@latest/icons/javascript.svg"
+          />
+          <img
+            style={{
+              filter:
+                "invert(90%) sepia(14%) saturate(5222%) hue-rotate(163deg) brightness(96%) contrast(105%)",
+              marginRight: "8px",
+            }}
+            alt="react"
+            height="46"
+            width="46"
+            src="https://unpkg.com/simple-icons@latest/icons/react.svg"
+          />{" "}
+          <img
+            style={{
+              filter:
+                "invert(20%) sepia(21%) saturate(6424%) hue-rotate(254deg) brightness(97%) contrast(88%)",
+              marginRight: "8px",
+            }}
+            alt="react"
+            height="46"
+            width="46"
+            fill="#339933"
+            src="https://unpkg.com/simple-icons@latest/icons/redux.svg"
+          />{" "}
+          <img
+            style={{
+              filter:
+                "invert(48%) sepia(14%) saturate(2347%) hue-rotate(71deg) brightness(99%) contrast(84%)",
+              marginRight: "8px",
+            }}
+            alt="react"
+            height="46"
+            width="46"
+            src="https://unpkg.com/simple-icons@latest/icons/node-dot-js.svg"
+          />{" "}
+          <img
+            style={{
+              filter:
+                "invert(20%) sepia(21%) saturate(6424%) hue-rotate(254deg) brightness(97%) contrast(88%)",
+            }}
+            alt="react"
+            height="46"
+            width="46"
+            src="https://unpkg.com/simple-icons@latest/icons/gatsby.svg"
+          />
         </p>
+
         <h4
           style={{
             margin: "0 auto",
