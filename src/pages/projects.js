@@ -45,7 +45,7 @@ const Projects = () => (
           style={{ width: "100%", maxWidth: "500px" }}
         />
         <ProjectLink href="https://xd.adobe.com/view/02de1ca6-9b0d-4353-69ad-f2ed4e7a7cf0-74ef/?fullscreen">
-          IMPLANTY24 - website prototype made in Adobe XD
+          IMPLANTY24 - website prototype made in Adobe XD for dental clinic
         </ProjectLink>
         <ProjectLink href="https://axon7.github.io/weather-app/">
           Weather application using geolocation
