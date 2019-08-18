@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import implanty from "../images/implanty.jpg"
 
 const StyledMain = styled.main`
   width: 100%;
@@ -21,6 +22,15 @@ const ProjectsList = styled.section`
   height: 100%;
 `
 
+const ProjectLink = styled.a`
+  color: black;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  &:nth-child(1) {
+    margin-top: 2rem;
+  }
+`
+
 // const ProjectDescription = styled.div``
 
 const Projects = () => (
@@ -29,21 +39,25 @@ const Projects = () => (
       <SEO title="about" />
 
       <ProjectsList>
-        <div>
-          <a href="https://axon7.github.io/weather-app/">
-            Weather application using geolocation
-          </a>
-        </div>
-        <div>
-          <a href="https://chatu-chatu.herokuapp.com">
-            Chatu-Chatu, real-time chat app
-          </a>
-        </div>
-        <div>
-          <a href="/">
-            Album Reviews full-stack application in MERN stack (in progress)
-          </a>
-        </div>
+        <img
+          src={implanty}
+          alt="implanty"
+          style={{ width: "100%", maxWidth: "500px" }}
+        />
+        <ProjectLink href="https://xd.adobe.com/view/02de1ca6-9b0d-4353-69ad-f2ed4e7a7cf0-74ef/?fullscreen">
+          IMPLANTY24 - website prototype made in Adobe XD
+        </ProjectLink>
+        <ProjectLink href="https://axon7.github.io/weather-app/">
+          Weather application using geolocation
+        </ProjectLink>
+
+        <ProjectLink href="https://chatu-chatu.herokuapp.com">
+          Chatu-Chatu, real-time chat app
+        </ProjectLink>
+
+        <ProjectLink href="#">
+          Album Reviews full-stack application in MERN stack (coming soon)
+        </ProjectLink>
       </ProjectsList>
     </StyledMain>
   </Layout>
