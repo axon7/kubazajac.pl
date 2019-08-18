@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import implanty from "../images/implanty.jpg"
 
 const StyledMain = styled.main`
   width: 100%;
@@ -39,11 +38,6 @@ const Projects = () => (
       <SEO title="about" />
 
       <ProjectsList>
-        <img
-          src={implanty}
-          alt="implanty"
-          style={{ width: "100%", maxWidth: "500px" }}
-        />
         <ProjectLink href="https://xd.adobe.com/view/02de1ca6-9b0d-4353-69ad-f2ed4e7a7cf0-74ef/?fullscreen">
           IMPLANTY24 - website prototype made in Adobe XD for dental clinic
         </ProjectLink>
