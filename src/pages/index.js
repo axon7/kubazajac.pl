@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import thunderbg from "../images/thunderbg.jpg"
+import thunderbg1 from "../images/thunderbg1.jpg"
 import project1 from "../images/project1.png"
 import Button from "../components/Button"
 import { Link } from "gatsby"
@@ -15,7 +15,7 @@ const StyledMain = styled.main`
 `
 
 const Background = styled.div`
-  background-image: url(${thunderbg});
+  background-image: url(${thunderbg1});
   height: 750px;
   width: 100%;
   margin: 0 auto;
@@ -36,7 +36,7 @@ const StyledMainText = styled.div`
   font-family: "Nunito";
   display: flex;
   justify-items: center;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: column;
 `
 
@@ -60,13 +60,15 @@ const IndexPage = () => (
       <SEO title="home" />
       <Background>
         <StyledMainText>
-          <h1>
+          <h1 style={{ margin: 0 }}>
             Hi, I'm Kuba!{" "}
             <span role="img" aria-label="hi-emoji">
               👋
             </span>
           </h1>
-          <h5>I'm 24 years old self-taught web developer</h5>
+          <h5 style={{ margin: 0 }}>
+            I'm 24 years old self-taught web developer
+          </h5>
         </StyledMainText>
       </Background>
       <StyledProjectsInfo>
